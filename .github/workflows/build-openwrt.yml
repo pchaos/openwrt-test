@@ -77,7 +77,7 @@ jobs:
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
-        [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config && echo "::warning ${CONFIG_FILE} moved to openwert/.config" && head -n 20 openwert/.config
+        [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config && echo "::warning ${CONFIG_FILE} moved to openwrt/.config" && head -n 20 openwrt/.config
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH

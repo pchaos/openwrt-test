@@ -185,8 +185,8 @@ jobs:
     - name: show message
       id: showmessage
       run: |
-        echo "::warning file=wetransfer.com::$(cat configwetransfer.log | grep https)"
-        echo "::set-output name=url::$(cat configwetransfer.log | grep https | cut -f3 -d" ")"
+        # echo "::warning file=wetransfer.com::$(cat configwetransfer.log | grep https)"
+        # echo "::set-output name=url::$(cat configwetransfer.log | grep https | cut -f3 -d" ")"
         echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
         echo "::set-output name=url::$(cat wetransfer.log | grep https | cut -f3 -d" ")"
 

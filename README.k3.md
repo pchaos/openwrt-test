@@ -20,6 +20,7 @@ luci-app-turboacc_INCLUDE_DNSPROXY
 luci-app-wifischedule
 iperf3
 ipset-dns
+iptables-nft
 odhcp6c
 passwall
 python3

@@ -27,12 +27,14 @@ python3
 samba
 sed
 smartdns
+ss
 tar
 tmux
 upx
 usbip
 usb-printer
 vim
+which
 xray-core
 zram(zstd)
 

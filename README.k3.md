@@ -11,13 +11,12 @@ ead
 fail2ban
 grep
 luci-app-cpufreq
-luci-app-passwoall
 luci-ssl-openssl
-luci-app-shadowsocks-libev
 luci-app-serverchan
 luci-app-turboacc_INCLUDE_DNSFORWARDER
 luci-app-turboacc_INCLUDE_DNSPROXY
 luci-app-wifischedule
+luci-proto-wireguard
 iperf3
 ipset-dns
 iptables-nft
@@ -40,6 +39,7 @@ zram(zstd)
 
 ## todos
 curl
+luci-app-passwoall
 nps
 python
 

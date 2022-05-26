@@ -16,3 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# https://gist.github.com/BorysVrublevskyi/0bf16f906aeb7bff67dc9a4b791d5c51
+echo "src-git cups https://github.com/TheMMcOfficial/lede-cups.git" >> feeds.conf.default

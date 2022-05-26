@@ -19,6 +19,7 @@ luci-app-wifischedule
 luci-proto-wireguard
 iperf3
 ipset-dns
+iptables-ipset
 iptables-nft
 odhcp6c
 passwall

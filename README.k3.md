@@ -7,6 +7,7 @@ at
 awk
 bash
 bc
+cups
 ead
 fail2ban
 grep

@@ -28,6 +28,7 @@ python3
 samba
 sed
 smartdns
+socat
 ss
 tar
 tmux

@@ -33,7 +33,6 @@ ss
 tar
 tmux
 upx
-usbip
 usb-printer
 vim
 which
@@ -45,5 +44,6 @@ curl
 luci-app-passwoall
 nps
 python
+usbip
 
 
